@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Download
 Pyromics is available for free download from this website. We provide dedicated installer for Windows.
 <p align="left">

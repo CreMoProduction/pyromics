@@ -19,7 +19,7 @@
             - [Peak filter and integration](peak_filtet_integration.md)
         - Export
             - [Results](results.md)
-    - [Manual peak integration]()
+    - [Manual peak integration](manual_peak_integration.md)
 
 - [Create your own library](create_library.md)
 - [Local and global settings](local_global_settings.md)

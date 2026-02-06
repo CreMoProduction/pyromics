@@ -7,7 +7,7 @@
 
 <span style="font-size:3.25em; font-family:'Segoe UI', SegoeUI, 'Segoe WP', Tahoma, Arial, sans-serif;"><strong>Pyromics</strong></span>
 
->  A high-throughput Py-GC/MS processing tool for deconvolution and classification complex polymeric co-eluted compounds
+>  High-Throughput Software for Pyrolysis GC-MS Data: User-friendly Compound Annotation and Classification of Carbohydrates and Lignin
 
 [Quick Start](/quick_start)
 [Home](README.md)

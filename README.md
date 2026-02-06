@@ -1,5 +1,6 @@
 
 <!-- <img src="images/cover_image.jpeg" alt="Pyromics Banner" style="width:100%; object-fit:cover; border-radius:8px; aspect-ratio:16/2; object-position:center 40%; clip-path: inset(10% 0 10% 0);"> -->
+<link rel="stylesheet" href="style.css">
 
 </p>
 
@@ -129,9 +130,9 @@
 <br>
 
 
-<div style="display: flex; justify-content: center; gap: 2em; max-width: 1200px; margin: 0 auto; align-items: flex-start;">
+<div class="responsive-flex">
 
-<div style="flex: 0 0 620px; min-width: 320px;">
+<div>
 
 # Core Functionality
 Pyromics primary capability is high-performance deconvolution, an analytical breakthrough that rapidly separates complex chemical mixtures in minutes. This core function is essential for high-throughput analysis, enabling the rapid screening of a large number of samples by quickly identifying and revealing hidden compounds. This transforms a labor-intensive, expert-dependent process into a fast, accessible, and user-friendly tool.
@@ -139,7 +140,7 @@ A key differentiator is its specialized focus on the analysis of plant biomass, 
 
 </div>
 
-<div style="flex: 0 0 620px; min-width: 320px;">
+<div>
 
 # The User-controlled Analytical Workflow
 Designed for both experts and non-experts, the application ensures data integrity and user confidence by providing a step-by-step processing workflow with advanced fine-tuning capabilities. At each stage—including [denoising](denoising.md), [baseline correction](baseline_correction.md), [sample alignment](sample_alignment.md), [deconvolution](deconvolution.md), and [annotation](annotation.md) maintain complete control. This design allows for detailed monitoring, where users can visually assess the quality and integrity of the data with "before" and "after" views of their chromatograms.

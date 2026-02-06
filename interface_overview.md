@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="style.css">
+
+
 # Main window
 Pyromics's GUI is designed with a clear, logical layout to ensure a smooth and efficient workflow. It is composed of four main elements: the **Menu bar**, the **Sidebar**, the **Main area**, and the **Status bar**. Each element has its own right mouse click context menu that contains plenty of different useful options. Try it.
 - **<span style="color: red;">Menu bar (red)</span>**: Located at the very top of the application window, the Menu Bar provides access to core functions such as `File` (for opening, saving, and managing projects, etc.), `Edit`, `Processing`, `View`, etc.
@@ -15,7 +18,7 @@ Pyromics's GUI is designed with a clear, logical layout to ensure a smooth and e
 ---
 
 # Sidebar
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
 
 <div style="flex: 0 0 320px;">
     <img src="images/image004.png" style="max-width: 100%; border-radius: 6px;">
@@ -48,9 +51,9 @@ The bottom window of the tab shows the available data to plot. A new dataset is 
 ---
 
 <br>
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
 
-<div style="flex: 0 0 320px;">
+<div class= "responsive-flex" style="flex: 0 0 320px;">
     <img src="images/image005.png" style="max-width: 100%; border-radius: 6px;">
 
 </div>
@@ -92,13 +95,13 @@ The top-right section displays the **Total Ion Chromatogram** of the selected sa
 
 The context menu that appears when you right-click on a chromatogram plot provides a set of powerful, quick-access options for interacting with your data. It allows you to perform key visualization and analysis tasks without needing to navigate through the main menu bar.
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
 
 <div style="flex: 0 0 200px;">
     <img src="images/image007.png" style="max-width: 100%; border-radius: 6px;">
 </div>
 
-<div style="flex: 1;">
+<div class= "responsive-flex" style="flex: 1;">
 
 - **Plot spectrum at current RT**: This option quickly displays the mass spectrum for the specific retention time (RT) you right-clicked on. This is a crucial function for immediately inspecting the ionic composition of a peak.
 - **RT range selector**: This tool allows you to select a specific retention time range on the chromatogram, which is particularly useful plotting an integrated area mass spectrum. 
@@ -121,9 +124,9 @@ The bottom-left section shows the **Mass Spectrum** at a specific retention time
     <img src="images/image006.2.png" style="max-width: 70%; border-radius: 6px;" >
 </p>
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
 
-<div style="flex: 0 0 320px;">
+<div class= "responsive-flex" style="flex: 0 0 320px;">
     <br>
     <img src="images/image008.png" style="max-width: 100%; border-radius: 6px;">
 </div>
@@ -157,9 +160,9 @@ The context menu appears when you right-click on **Spectrum Data**.
 
 ### Spectrum Data Library Search
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
 
-<div style="flex: 0 0 320px;">
+<div class= "responsive-flex" style="flex: 0 0 320px;">
     <br>
     <img src="images/image009.png" style="max-width: 100%; border-radius: 6px;">
 </div>

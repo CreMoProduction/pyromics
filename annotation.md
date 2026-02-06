@@ -1,7 +1,9 @@
-# Annotation
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<link rel="stylesheet" href="style.css">
 
-<div style="flex: 0 0 520px;">
+# Annotation
+<div class= "responsive-flex" >
+
+<div >
     <img src="images/image019.png"" style="max-width: 100%; border-radius: 6px;">
 
 </div>

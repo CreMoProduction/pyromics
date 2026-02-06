@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Processing tab
 The **Processing** tab is the heart of the Pyromics analytical capabilities. It provides a visual and interactive interface where you can configure every step of the data analysis workflow. Divided into logical sections for **Preprocessing**, **Analysis**, and **Export**, it allows you to select from various methods for tasks such as noise reduction, baseline correction, alignment, deconvolution, and annotation. After each step, a new dataset is produced, named after the method used, but you have the flexibility to give it a custom name. This granular control over input and output data allows for maximum flexibility. For example, you can process your raw data through a denoising step, and then use the denoised data as the input for the next step, baseline correction. Pyromics also allows you to run steps multiple times or even skip them entirely by unchecking them, enabling you to create complex, multi-pass processing loops. You can also monitor the progress of your analysis in real-time and even save your preferred settings for future projects, making it easy to replicate successful workflows.
 

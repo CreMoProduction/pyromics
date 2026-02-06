@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Peak filtering and integration
 
 After peak deconvolution, the resulting profiles  require refinement to ensure only biologically relevant signals are carried forward for quantification. Peak filtering utilizes Signal-to-Noise Ratio (SNR) and shape constraints to prune artifacts, while integration converts these resolved profiles into quantitative peak areas. This is done by default witihin the main processing, but can be run seprately after the processing to achieve the best resutls. TO disable auto peakk filtering and integration diisable it in the [Peak deconvolution MCR-ALS settings](deconvolution.md). 
@@ -11,13 +13,13 @@ After peak deconvolution, the resulting profiles  require refinement to ensure o
 ## Peak Filtering Settings
 The Peak filter window allows for the automated selection of high-quality chromatographic peaks based on their signal properties relative to the baseline and their morphology.
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-<div style="flex: 0 0 420px;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="flex: 0 0 420px;">
     <br>
     <img src="images/image039.png" style="max-width: 100%; border-radius: 6px;">
 </div>
 
-<div style="flex: 1;">
+<div class= "responsive-flex" style="flex: 1;">
 
 ### Usage
 - **Select MCR results**: Choose the specific MCR output object (e.g., results_dot_product) to which the filter will be applied.
@@ -34,13 +36,13 @@ The Peak filter window allows for the automated selection of high-quality chroma
 ## Peak Area intgration Settings
 TOnce peaks are filtered, the Peak integration step calculates the area under the curve for the resolved elution profiles, which is essential for downstream statistical analysis and metabolite quantification.
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-<div style="flex: 0 0 420px;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="flex: 0 0 420px;">
     <br>
     <img src="images/image040.png" style="max-width: 100%; border-radius: 6px;">
 </div>
 
-<div style="flex: 1;">
+<div class= "responsive-flex" style="flex: 1;">
 
 ### Usage
 

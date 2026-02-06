@@ -1,11 +1,12 @@
+<link rel="stylesheet" href="style.css">
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
 
-<div style="flex: 0 0 320px;">
+<div class= "responsive-flex" style="flex: 0 0 320px;">
     <img src="images/image004.png" style="max-width: 100%; border-radius: 6px;">
 </div>
 
-<div style="flex: 1;">
+<div class= "responsive-flex" style="flex: 1;">
 
 # File explorer tab
 

@@ -1,7 +1,9 @@
+<link rel="stylesheet" href="style.css">
+
 # Denoising
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-<div style="flex: 0 0 720px;">
+<div class= "responsive-flex" >
+<div >
     <br>
     <img src="images/image014.1.png" style="max-width: 100%; border-radius: 6px;">
 </div>
@@ -19,8 +21,8 @@ The chromatogram plot presented here demonstrates the effects of different denoi
 ## Gaussian Smooth Settings
 The **Gaussian Smooth Settings** window allows you to configure a smoothing filter that can be used to reduce high-frequency noise in your data. This is a common preprocessing step that can improve the quality of your chromatograms, making it easier to detect and resolve peaks. The filter works by applying a Gaussian function to the data, effectively averaging out sudden changes and creating a smoother curve.
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-<div style="flex: 0 0 420px;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="flex: 0 0 420px;">
     <br>
     <img src="images/image013.png" style="max-width: 100%; border-radius: 6px;">
 </div>
@@ -39,8 +41,8 @@ The **Gaussian Smooth Settings** window allows you to configure a smoothing filt
 ## Moving Average Smooth Settings
 The **Moving Average Smooth Settings** window allows you to configure a simple but effective smoothing filter. This method reduces noise by calculating the average of a specified number of data points within a defined window and then replacing the central point with that average. This process is repeated across the entire chromatogram, resulting in a smoother curve that is easier to analyze.
 
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-<div style="flex: 0 0 420px;">
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="flex: 0 0 420px;">
     <br>
     <img src="images/image014.png" style="max-width: 100%; border-radius: 6px;">
 </div>
