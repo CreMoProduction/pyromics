@@ -1,67 +1,103 @@
 
-<img src="images/cover_image.jpeg" alt="Pyromix Banner" style="width:100%; object-fit:cover; border-radius:8px; aspect-ratio:16/2; object-position:center 40%; clip-path: inset(10% 0 10% 0);">
+<!-- <img src="images/cover_image.jpeg" alt="Pyromics Banner" style="width:100%; object-fit:cover; border-radius:8px; aspect-ratio:16/2; object-position:center 40%; clip-path: inset(10% 0 10% 0);"> -->
 
 </p>
 
-<div align="center">
-<span style="font-size:2.25em;"><strong><a href="quick_start.md">Download Pyromix for Windows x64</a></strong></span>
+
+
+<!-- Hero Banner -->
+<div style="
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  ">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/cover_image.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: brightness(0.9) saturate(0.8) blur(2px); z-index: 0;"></div>
+  <div style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay for text readability */
+    z-index: 1;
+  "></div>
+  <div style="z-index: 2; max-width: 800px; padding: 1em; position: relative;">
+    <h1 style="font-size: 4em; margin: 0; font-weight: bold; color: white">Pyromics</h1>
+    <p style="font-size: 1.5em; margin: 0.5em 0;">A high-throughput Py-GC/MS processing tool for deconvolution and classification of complex polymeric co-eluted compounds</p>
+
+<div style="margin-top: 2em;">
+   <a href="quick_start.md" style="
+      display: inline-block;
+      padding: 12px 32px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+   " onmouseover="this.style.backgroundColor='#0056b3'" onmouseout="this.style.backgroundColor='#007bff'">
+      Download Pyromics for Windows x64
+   </a>
 </div>
-<br><br>
-
-# Pyromix Introduction
-
-<div style="display: flex; justify-content: center; gap: 2em; max-width: 1200px; margin: 0 auto; align-items: stretch;">
-
-   <div style="flex: 1 1 0; min-width: 220px; background: #e3f2fd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.06); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #1565c0; margin-top:0;">🧪 For Researchers</h3>
-      <ul style="font-size:1.1em; color: #0d47a1;">
-         <li>Batch process Py-GC-MS data</li>
-         <li>Data treatment</li>
-         <li>Automated deconvolution</li>
-         
-      </ul>
-   </div>
-
-   <div style="flex: 1 1 0; min-width: 220px; background: #f3e5f5; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.06); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #8e24aa; margin-top:0;">🌱 For Foresters</h3>
-      <ul style="font-size:1.1em; color: #4a148c;">
-         <li>Classify plant biomass</li>
-         <li>Identify lignin & carbohydrates</li>
-         <li>Visualize chemical profiles</li>
-      </ul>
-   </div>
-
-   <div style="flex: 1 1 0; min-width: 220px; background: #e8f5e9; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.06); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #388e3c; margin-top:0;">👩‍🔬 For Agronomists</h3>
-      <ul style="font-size:1.1em; color: #1b5e20;">
-         <li>Accessible GUI, no coding needed</li>
-         <li>Step-by-step workflow</li>
-         <li>Quality control at every stage</li>
-      </ul>
-   </div>
-
+</div>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 2em; max-width: 1200px; margin: 0 auto; align-items: stretch;">
 
-   <div style="flex: 1 1 0; min-width: 220px; background: #e3f2fd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.06); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #1565c0; margin-top:0;">Fast & Robust</h3>
-      <p style="font-size:1.1em; color: #0d47a1;">
-         Pyromix is fast and robust software for processing, visualization, and results validation of pyrolysis gas chromatography mass spectrometry (Py-GC-MS) raw files (<code>.cdf</code>).
+<div style="display: flex; flex-wrap: wrap; 
+   justify-content: center; 
+   gap: 2em; max-width: 1200px; 
+   margin: 0 auto; 
+   align-items: stretch;
+   ">
+
+   <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
+      <h3 style="color: #455a64; margin-top:0;">Automatic Data Processing</h3>
+      <p style="font-size:1.1em; color: #546e7a;">
+         Streamline your workflow with fully automated batch processing of Py-GC-MS data.
       </p>
    </div>
 
-   <div style="flex: 1 1 0; min-width: 220px; background: #f3e5f5; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.06); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #8e24aa; margin-top:0;">Py-GC-MS</h3>
-      <p style="font-size:1.1em; color: #4a148c;">
-         Pyromix is designed to simplify and accelerate the analysis of Py-GC-MS data for solid samples (for example wood and peat). It manages a significant bottleneck in data processing, which traditionally requires extensive expert knowledge and can take hours to complete.
+   <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
+      <h3 style="color: #455a64; margin-top:0;">Fast, Multithreaded Processing</h3>
+      <p style="font-size:1.1em; color: #546e7a;">
+         Take advantage of high-speed, multithreaded analysis optimized for rapid batch processing.
       </p>
    </div>
 
-   <div style="flex: 1 1 0; min-width: 220px; background: #e8f5e9; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.06); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #388e3c; margin-top:0;">Easy to use</h3>
-      <p style="font-size:1.1em; color: #1b5e20;">
-         Pyromix automates and speeds up this process with a user-friendly interface, making it accessible to non-experts, including researchers, foresters, and agronomists.
+   <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
+      <h3 style="color: #455a64; margin-top:0;">Free to Use</h3>
+      <p style="font-size:1.1em; color: #546e7a;">
+         Pyromics is free and accessible for researchers.
+      </p>
+   </div>
+
+   <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
+      <h3 style="color: #455a64; margin-top:0;">User-Friendly GUI</h3>
+      <p style="font-size:1.1em; color: #546e7a;">
+         No coding or command line required - designed for non-experts with an intuitive graphical interface.
+      </p>
+   </div>
+
+   <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
+      <h3 style="color: #455a64; margin-top:0;">Lignin Classification</h3>
+      <p style="font-size:1.1em; color: #546e7a;">
+         Specialized for the classification of lignin and carbohydrates.
+      </p>
+   </div>
+
+   <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
+      <h3 style="color: #455a64; margin-top:0;">Advanced Fine-Tuning</h3>
+      <p style="font-size:1.1em; color: #546e7a;">
+         Detailed step-by-step workflow with advanced fine-tuning and visual monitoring at every stage.
       </p>
    </div>
 
@@ -71,9 +107,23 @@
 <br>
 <div align="center">
 
-<span style="font-size:1.55em;"><strong><br> <a href="#/quick_start.md">Get started quickly - visit the Quick Start page</a><br> </strong></span>
+<div style="margin-top: 2em;">
+   <a href="#/quick_start.md" style="
+      display: inline-block;
+      padding: 12px 32px;
+      background-color: #008d28;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+   " onmouseover="this.style.backgroundColor='#00ad31'" onmouseout="this.style.backgroundColor='#008d28'">
+      Get started quickly - visit the Quick Start page
+   </a>
+</div>
    <br><br>
-   <img src="images/image001.png" alt="Pyromix GUI" >
+   <img src="images/image001.png" alt="Pyromics GUI" >
 </div>
 
 <br>
@@ -83,15 +133,15 @@
 
 <div style="flex: 0 0 620px; min-width: 320px;">
 
-# 🚀 Core Functionality
-Pyromix primary capability is high-performance deconvolution, an analytical breakthrough that rapidly separates complex chemical mixtures in minutes. This core function is essential for high-throughput analysis, enabling the rapid screening of a large number of samples by quickly identifying and revealing hidden compounds. This transforms a labor-intensive, expert-dependent process into a fast, accessible, and user-friendly tool.
+# Core Functionality
+Pyromics primary capability is high-performance deconvolution, an analytical breakthrough that rapidly separates complex chemical mixtures in minutes. This core function is essential for high-throughput analysis, enabling the rapid screening of a large number of samples by quickly identifying and revealing hidden compounds. This transforms a labor-intensive, expert-dependent process into a fast, accessible, and user-friendly tool.
 A key differentiator is its specialized focus on the analysis of plant biomass, offering dedicated tools for the classification of lignin and carbohydrates from deconvoluted peaks.
 
 </div>
 
 <div style="flex: 0 0 620px; min-width: 320px;">
 
-# ⚙️ The User-controlled Analytical Workflow
+# The User-controlled Analytical Workflow
 Designed for both experts and non-experts, the application ensures data integrity and user confidence by providing a step-by-step processing workflow with advanced fine-tuning capabilities. At each stage—including [denoising](denoising.md), [baseline correction](baseline_correction.md), [sample alignment](sample_alignment.md), [deconvolution](deconvolution.md), and [annotation](annotation.md) maintain complete control. This design allows for detailed monitoring, where users can visually assess the quality and integrity of the data with "before" and "after" views of their chromatograms.
 To support diverse research questions and data types, the application offers multiple algorithms for every processing step. Optimal settings for any method can be easily saved, which further streamlines future analyses.
 
@@ -103,24 +153,26 @@ ________________________________________
 # ✅ Key Benefits:
 <p align="left" style="font-size:1.5em;">
 <strong>
-Pyromix provides the following distinct advantages for data processing:
+Pyromics provides the following distinct advantages for data processing:
 </strong>
 </p>
 
-- **Free to Use**: The application is completely accessible without cost.
-- **High-Speed Processing**: Features fast, multithreaded processing and is optimized to utilize 100% of a PC’s resources for rapid batch processing.
-- **Accessibility**: Offers a user-friendly GUI for non-experts, eliminating the need for CLI or coding.
-- **Automated Workflow**: Includes automatic data processing features to streamline analysis.
-- **Targeted Analysis**: Specifically focused on the classification of lignin and carbohydrates from deconvoluted peaks.
-- **Quality Control & Flexibility**: Enables advanced fine-tuning of processing methods with detailed step-by-step monitoring, allowing users to visually verify data integrity at every stage.
+- **Fast Processing & Multithreading**: Delivers rapid analysis using multithreaded algorithms, fully utilizing available hardware resources.
+- **User-Friendly GUI**: Intuitive graphical interface designed for ease of use, requiring no coding or command line experience.
+- **Accessible for All Users**: Equally suitable for non-experts and for users who require detailed quality control and advanced processing.
+- **Flexible Chromatogram Segmentation**: Uses automatic and user-adjustable peak picking for precise chromatogram-to-window segmentation.
+- **Directional Weight Filtering**: Addresses composite spectrum challenges with advanced directional weight filtering.
+- **Comprehensive Compound Annotation**: Annotates compounds using the entire spectrum, not just class ion fragments, for improved accuracy.
+- **Detailed Output Reporting**: Generates results as class and subclass percentage quantities within samples, alongside absolute peak area values.
+- **Custom Library Support**: Allows use of sample-specific or custom compound libraries.
 
 ________________________________________
 
-> **Note:** If you use Pyromix in your research, please remember to cite the appropriate reference
+> **Note:** If you use Pyromics in your research, please remember to cite the appropriate reference
 > 
 > [PLACE A REFERENCE HERE]  
 >  
-> Your citation helps support the development and acknowledges the work behind Pyromix!
+> Your citation helps support the development and acknowledges the work behind Pyromics!
 
 
 <div align="center">

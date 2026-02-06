@@ -1,9 +1,9 @@
 # Deconvolution
 ## Edit Deconvolution Settings
-The **Edit deconvolution settings** window is a sophisticated and the most complex tool that allows you to configure the parameters for the deconvolution process, which separates co-eluting compounds in your data. It's designed to give you precise control over how Pyromix identifies and isolates individual peaks, a critical step for accurate analysis. The main part of the window is a visual display of the **Maximum Intensity Projection Chromatogram**, which shows all the peaks detected in your sample. This is an optional editing step and can be skipped. Otherwise, peaks and consequent windows will be detected automatically. 
+The **Edit deconvolution settings** window is a sophisticated and the most complex tool that allows you to configure the parameters for the deconvolution process, which separates co-eluting compounds in your data. It's designed to give you precise control over how Pyromics identifies and isolates individual peaks, a critical step for accurate analysis. The main part of the window is a visual display of the **Maximum Intensity Projection Chromatogram**, which shows all the peaks detected in your sample. This is an optional editing step and can be skipped. Otherwise, peaks and consequent windows will be detected automatically. 
 
 ### Usage
-This allows you to define the "windows" or segments where deconvolution will be performed. The goal is to isolate each peak within its own window. Ideally, each peak should be in its own window to ensure the best results. However, it's also possible to have several peaks within a single window, especially when using deconvolution methods like MCR-AR. This allows Pyromix to resolve complex co-eluted mixtures as well as compounds that elute at different times within each window.
+This allows you to define the "windows" or segments where deconvolution will be performed. The goal is to isolate each peak within its own window. Ideally, each peak should be in its own window to ensure the best results. However, it's also possible to have several peaks within a single window, especially when using deconvolution methods like MCR-ALS. This allows Pyromics to resolve complex co-eluted mixtures as well as compounds that elute at different times within each window.
 To perform proper deconvolution, you should find a balance between the window length and the max number of components or cumulative explained variance. Setting a window that is too long with a limited number of components might cause some compounds to be lost. You can also adjust windows manually by double-clicking on the chromatogram to add or remove them as well as adding a new one.
 1. **Capture Baseline**
 The **Capture baseline** section is used to prepare your data for peak detection. By defining a working range and a capture method, you can effectively separate the actual signal (peaks) from the baseline noise, which is a necessary step before the peak finder can accurately identify compounds.
@@ -24,13 +24,15 @@ This section is where you configure the algorithm for detecting peaks in the chr
     - **Pan**: Use `Ctrl + LBM` (Left Button Mouse) and drag to move the chromatogram view.
     - **Zoom**: Use `Ctrl + LBM` drag to zoom in on a specific area. Use the mouse scroll wheel to zoom in or out. `Right-click RBM` to reset the zoom.
     - **Add/Remove Windows**: `Double-click` on the chromatogram with the left mouse button to add a manual window. `Double-click` again to remove it. You can also drag the window borders to adjust their size.
-4. **MCR-AR**
-This is where you set the parameters for the Multivariate Curve Resolution-Alternating Regression (MCR-AR) deconvolution algorithm.
+4. **MCR-ALS**
+This is where you set the parameters for the Multivariate Curve Resolution-Alternating Regression (MCR-ALS) deconvolution algorithm.
 - **Max components**: Sets the maximum number of components the algorithm should try to resolve within a window.
 - **Initial guess**: Choose the initial guess method for the deconvolution algorithm.
-- **Component selection**: Select the method for selecting the number of components, such as `PCA` or `shifted_gaussian`.
+- **Component selection**: Select the method for selecting the number of components, such as `eigenvalue`, `min_mse` or `singular_value`, `manual`.
 - **Manual n_components**: Allows you to manually specify the number of components if you're not using an Component selection: manual selection method.
-- **PCA cumulative variance**: Sets the minimum cumulative variance for PCA components to be included. Enabled if `pca_elbow` smethod is used in Component selection.
+- **PCA cumulative variance**: Sets the minimum cumulative variance for PCA components to be included. Enabled if `eigenvalue` smethod is used in Component selection.
+- **Peak SNR filter**: Eanble or disable peak filtering. [Edit filter](peak_filtet_integration.md) if needed 
+- **Unimodal peak integration**: Integrate unimodal shape (Gaussian shape) peak area only. 
 
 Once you have adjusted all the settings, click **Apply** to see the changes reflected in the chromatogram or **OK** to save the settings and exit the window. Click **Cancel** to exit without saving your changes.
 

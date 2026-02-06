@@ -1,6 +1,6 @@
-# Pyromix Docsify Documentation
+# Pyromics Docsify Documentation
 
-This is the documentation site for the Pyromix project, powered by [Docsify](https://docsify.js.org/).
+This is the documentation site for the Pyromics project, powered by [Docsify](https://docsify.js.org/).
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ Edit the markdown files to update the documentation content.
 
 ### Introduction
 
-Welcome to the Pyromix documentation!  
+Welcome to the Pyromics documentation!  
 This is a sample introduction section. You can add more details about your project here.
 
 ### Features

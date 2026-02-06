@@ -15,13 +15,16 @@
         - Analysis
             - [Deconvolution](deconvolution.md)
             - [Annotation](annotation.md)
+            - [Directional weight](directional_weight.md)
+            - [Peak filter and integration](peak_filtet_integration.md)
         - Export
             - [Results](results.md)
+    - [Manual peak integration]()
 
 - [Create your own library](create_library.md)
-- [Directional weight](directional_weight.md)
 - [Local and global settings](local_global_settings.md)
 - [Supported file formats](file_formats.md)
 - [Specification](specifications.md)
 - [License](license.md)
+- [Privacy policy](privacy_policy.md)
 - [About](about.md)

@@ -8,12 +8,12 @@
 
 <div style="flex: 1;">
 
-The **Edit compound annotation settings** window is a crucial part of the workflow, as it allows you to configure how Pyromix identifies and names the compounds in your data. This process is based on comparing the mass spectra of your unknown compounds with a library of known compounds, specifically using a NIST Mass Spectral Library file (`.msp`).
+The **Edit compound annotation settings** window is a crucial part of the workflow, as it allows you to configure how Pyromics identifies and names the compounds in your data. This process is based on comparing the mass spectra of your unknown compounds with a library of known compounds, specifically using a NIST Mass Spectral Library file (`.msp`).
 
 ## Usage
-- **NIST MS Search Location**: optionally you can specify the location of the NIST MS Search executable (nistms.exe) on your computer. This program is a prerequisite for the annotation process for a quick annotation shown in the Data overview tab to annotate non-deconvoluted chromatographic peaks. It is also can be used to verify annotation processing results in the Deconvolution results tab for deconvoluted peaks. Click the **[...]** button to browse to and select the file.
-- **Library Location**: you have to point Pyromix to your spectral library. This is the `.msp` file that contains the mass spectra of the compounds you want to use for identification. Click the **[...]** button next to Library location to select your library file.
-- **Mass Spectrum Match**: This dropdown menu allows you to choose the algorithm used to compare your experimental mass spectra to the library spectra. The default option is dot_product, a widely used method for spectral matching. Alternative options are Pearson correlation, Neutral loss.
+- **NIST MS Search Location**: optionally you can specify the location of the NIST MS Search executable (nistms.exe) on your computer. This program is a prerequisite for the annotation process for a quick annotation shown in the **Data overview** tab to annotate non-deconvoluted chromatographic peaks. It is also can be used to verify annotation processing results in the **Deconvolution results** tab for deconvoluted peaks. Click the **[...]** button to browse to and select the file.
+- **Library Location**: you have to point Pyromics to your spectral library. This is the `.msp` file that contains the mass spectra of the compounds you want to use for identification. Click the **[...]** button next to Library location to select your library file.
+- **Mass Spectrum Match**: This dropdown menu allows you to choose the algorithm used to compare your experimental mass spectra to the library spectra. The default option is dot_product, a widely used method for spectral matching. Alternative options are Pearson correlation, Squared Euclidean.
 
 
 </div>
