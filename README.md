@@ -31,11 +31,11 @@
     z-index: 1;
   "></div>
   <div style="z-index: 2; max-width: 800px; padding: 1em; position: relative;">
-    <h1 style="font-size: 4em; margin: 0; font-weight: bold; color: white">Pyromics</h1>
-    <p style="font-size: 1.5em; margin: 0.5em 0;">A high-throughput Py-GC/MS processing tool for deconvolution and classification of complex polymeric co-eluted compounds</p>
+    <h1 style="font-size: 5.0em; margin: 0; font-weight: bold; color: white">Pyromics</h1>
+    <p style="font-size: 1.7em; margin: 0.5em 0;">Transforming Py-GC/MS data into meaningful biological results</p>
 
 <div style="margin-top: 2em;">
-   <a href="quick_start.md" style="
+   <a href="https://zenodo.org/records/18608843/files/alignment.py?download=1" style="
       display: inline-block;
       padding: 12px 32px;
       background-color: #007bff;
@@ -77,7 +77,8 @@
    <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
       <h3 style="color: #455a64; margin-top:0;">Free to Use</h3>
       <p style="font-size:1.1em; color: #546e7a;">
-         Pyromics is free and accessible for researchers.
+      Pyromics is free and accessible for researchers.
+         <a href="#/license.md" style="color: #007bff; text-decoration: none; font-weight: 500;"> Learn more</a>
       </p>
    </div>
 
@@ -106,6 +107,7 @@
 
 
 <br>
+
 <div align="center">
 
 <div style="margin-top: 2em;">
@@ -171,7 +173,6 @@ ________________________________________
 
 > **Note:** If you use Pyromics in your research, please remember to cite the appropriate reference
 > 
-> [PLACE A REFERENCE HERE]  
 >  
 > Your citation helps support the development and acknowledges the work behind Pyromics!
 

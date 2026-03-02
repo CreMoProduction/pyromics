@@ -7,7 +7,7 @@
 
 <span style="font-size:3.25em; font-family:'Segoe UI', SegoeUI, 'Segoe WP', Tahoma, Arial, sans-serif;"><strong>Pyromics</strong></span>
 
->  High-Throughput Software for Pyrolysis GC-MS Data: User-friendly Compound Annotation and Classification of Carbohydrates and Lignin
+>  Fast & easy software for Pyrolysis GC/MS: instantly identify and classify carbohydrates and lignin
 
 [Quick Start](/quick_start)
 [Home](README.md)

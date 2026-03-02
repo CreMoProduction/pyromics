@@ -14,9 +14,14 @@ Simply download the installer and follow the on-screen instructions. Pyromics is
 
 # Start processing
 
-To begin processing your data, you'll first need to load your raw `.cdf` files into Pyromics. You can do this in one of two ways:
+
+?> **Getting Started with Sample Data**. To help you familiarize yourself with Pyromics, we provide a free training dataset containing 30 `.cdf` files from *Populus tremula* (European aspen). This dataset is ideal for learning the software's features and workflow without needing your own data. Download the training dataset from  [here](https://zenodo.org/records/18458637).
+
+
+To begin processing your data, you'll first need to load your raw `.cdf` files into Pyromics. You can do this in one of three ways:
 1. Navigate to the menu bar at the top of the application and select `File > Open files`.
-2. Alternatively, in the [File explorer tab](interface_overview.md#file-explorer-tab) on the left, right-click and choose `Open files`.
+2. In the [File explorer tab](interface_overview.md#file-explorer-tab) on the left, right-click and choose `Open files`.
+3. Alternatively, drag and drop `.cdf` files directly into the [File explorer tab](interface_overview.md#file-explorer-tab) on the left.
 
 > It will take some time to complete, as Pyromics caches the `.cdf` files to its [project folder](project_settings.md).
 

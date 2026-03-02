@@ -18,9 +18,9 @@ Pyromics's GUI is designed with a clear, logical layout to ensure a smooth and e
 ---
 
 # Sidebar
-<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex">
 
-<div style="flex: 0 0 320px;">
+<div>
     <img src="images/image004.png" style="max-width: 100%; border-radius: 6px;">
 
 </div>
@@ -51,9 +51,9 @@ The bottom window of the tab shows the available data to plot. A new dataset is 
 ---
 
 <br>
-<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex">
 
-<div class= "responsive-flex" style="flex: 0 0 320px;">
+<div>
     <img src="images/image005.png" style="max-width: 100%; border-radius: 6px;">
 
 </div>
@@ -124,9 +124,9 @@ The bottom-left section shows the **Mass Spectrum** at a specific retention time
     <img src="images/image006.2.png" style="max-width: 70%; border-radius: 6px;" >
 </p>
 
-<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex">
 
-<div class= "responsive-flex" style="flex: 0 0 320px;">
+<div class= "responsive-flex">
     <br>
     <img src="images/image008.png" style="max-width: 100%; border-radius: 6px;">
 </div>

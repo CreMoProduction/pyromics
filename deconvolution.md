@@ -36,8 +36,15 @@ This is where you set the parameters for the Multivariate Curve Resolution-Alter
 
 Once you have adjusted all the settings, click **Apply** to see the changes reflected in the chromatogram or **OK** to save the settings and exit the window. Click **Cancel** to exit without saving your changes.
 
-!> **Note**: The deconvolution step is a mandatory part of the processing pipeline, as the data produced by this step is a required input for the subsequent annotation step. Therefore, you cannot skip this step entirely. However, if your data does not contain co-eluting compounds or if you prefer to bypass the full deconvolution algorithm, you can still process your data through the deconvolution module. To do this, you must set the `Maximum components = 1` in the **Edit deconvolution settings** window. Alternatively use `Compound section > manual`; `Manual n_components > 1`. This will ensure that the data is correctly prepared for the annotation phase without performing a complex, multi-component deconvolution.
+!> **Note**: The deconvolution step is a crucial part of the processing pipeline, as the data produced by this step is a required input for the subsequent annotation step. You can bypass deconvolution or limit it using these approaches:
 
+?> **To skip (disable) deconvolution entirely**: Set `Component selection > manual` and `Manual n_components = 1`. The Total Ion Chromatogram (TIC) is used directly without resolving profiles. In this case, the total ion signal is counted in compound annotation even though it might represent a composite spectra. 
+
+Be aware that [peak filtering](peak_filtet_integration) settings may exclude more peaks than expected. You can either adjust the filter settings before running deconvolution, or apply peak filtering separately after the deconvolution process completes for more control over the results.
+
+?> **To resolve profiles with single component output**: Set `Maximum components = 1`. This applies the deconvolution algorithm but yields only one resolved component. In this case, E residual is discarded from the output.
+
+Both approaches prepare your data for the annotation phase.
 
 
 <p align="center">
