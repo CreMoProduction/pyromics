@@ -2,6 +2,15 @@
 ## COW Alignment Settings
 The **Correlation Optimized Warping (COW) alignment settings** window is used to configure the parameters for the COW alignment method, which corrects for small shifts in retention time between different samples. This is a crucial preprocessing step to ensure that corresponding peaks in different chromatograms align correctly, making them comparable for subsequent analysis.
 
+
+<div class= "responsive-flex" style="display: flex; align-items: flex-start; gap: 2em;">
+<div class= "responsive-flex" style="flex: 0 0 420px;">
+    <br><br>    
+    <img src="images/image017.png" style="max-width: 100%; border-radius: 6px;">
+</div>
+
+<div class= "responsive-flex" style="flex: 1;">
+
 ### Usage
 - **Segment length**: This value defines the size of the segments that the algorithm will use to perform localized adjustments. Longer segments allow for more localized adjustments but can increase processing time.
 - **Max warp factor**: This setting controls the flexibility of the alignment. Higher values allow for more "warping" or stretching of the chromatogram to align peaks, but be cautious as this can also distort the natural peak shapes.
@@ -13,6 +22,5 @@ The **Correlation Optimized Warping (COW) alignment settings** window is used to
     - **Align by each channel**: This option performs alignment on a per-channel basis. It's the most comprehensive method and is recommended for complex mixtures where different compounds might be present in different channels.
 - After setting all the parameters to your liking, click **OK** to apply the settings and proceed with the alignment, or **Cancel** to exit without making any changes.
 
-<p align="center">
-    <img src="images/image017.png" >
-</p>
+</div>
+</div>

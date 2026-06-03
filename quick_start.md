@@ -3,7 +3,7 @@
 # Download
 Pyromics is available for free download from this website. We provide dedicated installer for Windows.
 <p align="left">
-    <a href="https://docsify.js.org/" target="_blank" style="font-size:1.4em;">
+    <a href="https://github.com/CreMoProduction/pyromics/releases/latest" target="_blank" style="font-size:1.4em;">
         <strong>Download Pyromics here :arrow_down_small:</strong>
     </a>
     </a>
