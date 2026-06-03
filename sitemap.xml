@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cremoproduction.github.io/pyromics/</loc>
+    <priority>1.0</priority>
+  </url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/.github/copilot-instructions</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/README copy</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/README</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/_coverpage</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/_navbar</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/_sidebar</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/about</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/annotation</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/baseline_correction</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/create_library</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/deconvolution</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/denoising</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/directional_weight</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/file_formats</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/interface_overview</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/license</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/local_global_settings</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/main_window</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/manual_peak_integration</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/peak_filtet_integration</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/privacy_policy</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/project_settings</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/quick_start</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/results</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/sample_alignment</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/settings</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/specifications</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/tab_data_overview</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/tab_deconvolution</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/tab_file_explorer</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/tab_peak_viewer</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://cremoproduction.github.io/pyromics/tab_processing</loc>
+  <priority>0.8</priority>
+</url>
+</urlset>
