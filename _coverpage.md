@@ -7,11 +7,11 @@
 
 <span style="font-size:3.25em; font-family:'Segoe UI', SegoeUI, 'Segoe WP', Tahoma, Arial, sans-serif;"><strong>Pyromics</strong></span>
 
->  Fast & easy software for Pyrolysis GC/MS: instantly identify and classify carbohydrates and lignin
+>  Fast & easy software for Pyrolysis GC-MS: instantly identify and classify carbohydrates and lignin
 
 [Quick Start](/quick_start)
 [Home](README.md)
-[Download Pyromics](https://github.com/your-repo)
+[Download Pyromics](https://github.com/CreMoProduction/pyromics/releases/latest)
 
 <!-- background image -->
 <!-- ![](images/cover_image.jpeg) -->

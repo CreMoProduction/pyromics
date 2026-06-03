@@ -32,7 +32,7 @@
   "></div>
   <div style="z-index: 2; max-width: 800px; padding: 1em; position: relative;">
     <h1 style="font-size: 5.0em; margin: 0; font-weight: bold; color: white">Pyromics</h1>
-    <p style="font-size: 1.7em; margin: 0.5em 0;">Transforming Py-GC/MS data into meaningful biological results</p>
+    <p style="font-size: 1.7em; margin: 0.5em 0;">Transforming Py-GC-MS data into meaningful biological results</p>
 
 <div style="margin-top: 2em;">
    <a href="https://zenodo.org/records/18608843/files/alignment.py?download=1" style="
@@ -90,7 +90,7 @@
    </div>
 
    <div style="flex: 1 1 320px; min-width: 220px; background: #e9ecef; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.04); padding: 1.5em; margin: 0.5em;">
-      <h3 style="color: #455a64; margin-top:0;">Lignin Classification</h3>
+      <h3 style="color: #455a64; margin-top:0;">Lignin & Carbohydrates Classification</h3>
       <p style="font-size:1.1em; color: #546e7a;">
          Specialized for the classification of lignin and carbohydrates.
       </p>
@@ -137,7 +137,7 @@
 <div>
 
 # Core Functionality
-Pyromics primary capability is high-performance deconvolution, an analytical breakthrough that rapidly separates complex chemical mixtures in minutes. This core function is essential for high-throughput analysis, enabling the rapid screening of a large number of samples by quickly identifying and revealing hidden compounds. This transforms a labor-intensive, expert-dependent process into a fast, accessible, and user-friendly tool.
+Pyromics primary capability is high-performance deconvolution, an analytical breakthrough that rapidly separates complex chemical mixtures in minutes. This core function is essential for high-throughput analysis. This transforms a labor-intensive, expert-dependent process into a fast, accessible, and user-friendly tool.
 A key differentiator is its specialized focus on the analysis of plant biomass, offering dedicated tools for the classification of lignin and carbohydrates from deconvoluted peaks.
 
 </div>
@@ -145,7 +145,7 @@ A key differentiator is its specialized focus on the analysis of plant biomass, 
 <div>
 
 # The User-controlled Analytical Workflow
-Designed for both experts and non-experts, the application ensures data integrity and user confidence by providing a step-by-step processing workflow with advanced fine-tuning capabilities. At each stage—including [denoising](denoising.md), [baseline correction](baseline_correction.md), [sample alignment](sample_alignment.md), [deconvolution](deconvolution.md), and [annotation](annotation.md) maintain complete control. This design allows for detailed monitoring, where users can visually assess the quality and integrity of the data with "before" and "after" views of their chromatograms.
+Designed for both experts and non-experts. At each stage—including [denoising](denoising.md), [baseline correction](baseline_correction.md), [sample alignment](sample_alignment.md), [deconvolution](deconvolution.md), and [annotation](annotation.md) maintain complete control. This design allows for detailed monitoring, where users can visually assess the quality and integrity of the data with "before" and "after" views of their chromatograms.
 To support diverse research questions and data types, the application offers multiple algorithms for every processing step. Optimal settings for any method can be easily saved, which further streamlines future analyses.
 
 </div>
@@ -160,11 +160,11 @@ Pyromics provides the following distinct advantages for data processing:
 </strong>
 </p>
 
+- **Lignin & Carbohydrates classification**: Identifies and separates lignin- and carbohydrate-related compounds.
 - **Fast Processing & Multithreading**: Delivers rapid analysis using multithreaded algorithms, fully utilizing available hardware resources.
 - **User-Friendly GUI**: Intuitive graphical interface designed for ease of use, requiring no coding or command line experience.
 - **Accessible for All Users**: Equally suitable for non-experts and for users who require detailed quality control and advanced processing.
-- **Flexible Chromatogram Segmentation**: Uses automatic and user-adjustable peak picking for precise chromatogram-to-window segmentation.
-- **Directional Weight Filtering**: Addresses composite spectrum challenges with advanced directional weight filtering.
+- **Flexible Chromatogram Segmentation**: Uses automatic and user-adjustable peak picking for chromatogram-to-window segmentation.
 - **Comprehensive Compound Annotation**: Annotates compounds using the entire spectrum, not just class ion fragments, for improved accuracy.
 - **Detailed Output Reporting**: Generates results as class and subclass percentage quantities within samples, alongside absolute peak area values.
 - **Custom Library Support**: Allows use of sample-specific or custom compound libraries.

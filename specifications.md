@@ -6,9 +6,10 @@
 [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
 [![Windows](https://badgen.net/badge/icon/windows?icon=windows&label)](https://microsoft.com/windows/)
 
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-[![Static Badge](https://img.shields.io/badge/any_text-you_like-blue)]()
-[![Static Badge](https://img.shields.io/badge/Contact-8A2BE2)]()
+<!-- [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama) -->
+
+<!-- [![Static Badge](https://img.shields.io/badge/any_text-you_like-blue)]() -->
+[![Static Badge](https://img.shields.io/badge/Contact_Author-8A2BE2)](mailto:aleks.delta2013@gmail.com)
 
 
 
@@ -17,7 +18,7 @@
 | **Publications**                | PMID:32541957                                                                                                                                   |
 | **Training datasets**           | Yes                                                                                                                                            |
 | **Documentation and user guide**| Docsify powered on GitHub                                                                                                 |
-| **Download / Web-service link** | Yes                                                                                                                                            |
+| **Download / Web-service link** | [Download](https://github.com/CreMoProduction/pyromics/releases/latest)                           |
 | **Programming languages**       | Python                                                                                                                                             |
 | **Platforms**                   | Windows                                                                                                                    |
 | **Output formats**              | CSV                                                                                                                                            |

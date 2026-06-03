@@ -38,11 +38,11 @@ Once you have adjusted all the settings, click **Apply** to see the changes refl
 
 !> **Note**: The deconvolution step is a crucial part of the processing pipeline, as the data produced by this step is a required input for the subsequent annotation step. You can bypass deconvolution or limit it using these approaches:
 
-?> **To skip (disable) deconvolution entirely**: Set `Component selection > manual` and `Manual n_components = 1`. The Total Ion Chromatogram (TIC) is used directly without resolving profiles. In this case, the total ion signal is counted in compound annotation even though it might represent a composite spectra. 
+?> **1. To skip (disable) deconvolution entirely**: Set `Component selection > manual` and `Manual n_components = 1`. The Total Ion Chromatogram (TIC) is used directly without resolving profiles. In this case, the total ion signal is counted in compound annotation even though it might represent a composite spectra. 
 
 Be aware that [peak filtering](peak_filtet_integration) settings may exclude more peaks than expected. You can either adjust the filter settings before running deconvolution, or apply peak filtering separately after the deconvolution process completes for more control over the results.
 
-?> **To resolve profiles with single component output**: Set `Maximum components = 1`. This applies the deconvolution algorithm but yields only one resolved component. In this case, E residual is discarded from the output.
+?> **2. To resolve profiles with single component output**: Set `Maximum components = 1`. This applies the deconvolution algorithm but yields only one resolved component. In this case, E residual is discarded from the output.
 
 Both approaches prepare your data for the annotation phase.
 
