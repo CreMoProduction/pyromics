@@ -35,7 +35,7 @@
     <p style="font-size: 1.7em; margin: 0.5em 0;">Transforming Py-GC-MS data into meaningful biological results</p>
 
 <div style="margin-top: 2em;">
-   <a href="https://zenodo.org/records/18608843/files/alignment.py?download=1" style="
+   <a href="https://github.com/CreMoProduction/pyromics/releases/latest" style="
       display: inline-block;
       padding: 12px 32px;
       background-color: #007bff;
@@ -136,9 +136,8 @@ ________________________________________
 
 <div>
 
-# Core Functionality
-Pyromics primary capability is high-performance deconvolution, an analytical breakthrough that rapidly separates complex chemical mixtures in minutes. This core function is essential for high-throughput analysis. This transforms a labor-intensive, expert-dependent process into a fast, accessible, and user-friendly tool.
-A key differentiator is its specialized focus on the analysis of plant biomass, offering dedicated tools for the classification of lignin and carbohydrates from deconvoluted peaks.
+# Pyromics: Speed and Efficiency
+Transform your Py-GC/MS workflow with Pyromics, the ultimate solution for rapid and sustainable material analysis by the resolution of complex, overlapped peaks through both automated and user-controlled processes. Pyromics allows you to shrink your GC run times from a traditional 40–60 minutes down to just 15 minutes. This acceleration not only boosts your laboratory’s throughput but also significantly reduces the need for frequent spare parts. It makes your operations more sustainable and cost-effective. With our advanced data processing engine Pyromics delivers the results in under 5 minutes. Pyromics empowers you to spend less time on instrument maintenance and more time unlocking critical analytical insights.
 
 </div>
 

@@ -11,7 +11,8 @@
 
 [Quick Start](/quick_start)
 [Home](README.md)
-[Download Pyromics](https://github.com/CreMoProduction/pyromics/releases/latest)
+<a href="https://github.com/CreMoProduction/pyromics/releases/latest" onclick="trackButtonClick('download','Download Pyromics')" target="_blank" rel="noopener">Download Pyromics</a>
+<!-- [Download Pyromics](https://github.com/CreMoProduction/pyromics/releases/latest) -->
 
 <!-- background image -->
 <!-- ![](images/cover_image.jpeg) -->
