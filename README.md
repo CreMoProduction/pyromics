@@ -20,7 +20,7 @@
   text-align: center;
   overflow: hidden;
   ">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/cover_image.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: brightness(0.9) saturate(0.8) blur(2px); z-index: 0;"></div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('images/cover_image.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: brightness(0.9) saturate(0.8) blur(2px);s z-index: 0;"></div>
   <div style="
     position: absolute;
     top: 0;
@@ -126,7 +126,7 @@
    </a>
 </div>
    <br><br>
-   <img src="images/image001.png" alt="Pyromics GUI" >
+   <img src="images/image001.png" alt="Pyromics GUI" class="hero-img"  >
 </div>
 
 <br>
@@ -181,4 +181,14 @@ ________________________________________
 <span style="font-size:1.25em;"><strong>Get started quickly - visit the <a href="#/quick_start.md">Quick Start</a> page</strong></span>
 
 </div>
+
+<style>
+.img-wrap{ width:100%; height:400px; overflow:hidden; border-radius:8px; }
+.hero-img{ width:100%; height:100%; object-fit:cover; object-position:center 40%; display:block; }
+
+@media (max-width:600px){
+  .img-wrap{ height:60vh;}
+  .hero-img{ transform: scale(2.08); object-position:center center; }
+}
+</style>
 

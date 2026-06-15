@@ -66,9 +66,47 @@
                 '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify. Alex Ilchenko. 2026</a>'
               );
             });
+
+            hook.doneEach(function() {
+              try {
+                var content = document.querySelector('.content') || document.querySelector('.markdown-section');
+                var siteName = (vm && vm.config && vm.config.name) || 'Pyromics';
+                var pageTitle = siteName;
+                if (content) {
+                  var h1 = content.querySelector('h1, h2');
+                  if (h1 && h1.textContent) pageTitle = h1.textContent.trim();
+                }
+                document.title = pageTitle + ' — ' + siteName;
+
+                var desc = '';
+                if (content) {
+                  var p = content.querySelector('p');
+                  if (p && p.textContent) desc = p.textContent.trim().slice(0, 160);
+                }
+                var metaDesc = document.querySelector('meta[name="description"]');
+                if (!metaDesc) {
+                  metaDesc = document.createElement('meta');
+                  metaDesc.name = 'description';
+                  document.head.appendChild(metaDesc);
+                }
+                metaDesc.content = desc || 'Pyromics documentation - fast Py-GC/MS processing';
+
+                var canonical = document.querySelector('link[rel="canonical"]');
+                if (!canonical) {
+                  canonical = document.createElement('link');
+                  canonical.rel = 'canonical';
+                  document.head.appendChild(canonical);
+                }
+                canonical.href = location.href.split('#')[0];
+              } catch (e) {
+                console.warn('SEO plugin error', e);
+              }
+            });
+
           }
         ]
       }
+      
       // Optional: dynamically update the browser tab title
       document.addEventListener('DOMContentLoaded', function() {
         document.title = 'Pyromics';
