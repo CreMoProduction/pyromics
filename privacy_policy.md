@@ -35,10 +35,5 @@ For users in the European Economic Area (EEA), United Kingdom (UK), and Switzerl
 | Collecting and Analyzing Usage Data        | **Legitimate Interests (Article 6(1)(f))** – We have a legitimate interest in analyzing data to measure the success of our Software and continuously improve it for the benefit of our users. This is balanced against the low risk to your rights, given our strong commitment to IP anonymization and minimized data collection. |
 | International Data Transfer                | **Adequacy Decision (EU-U.S. Data Privacy Framework)** – Data collected by Google may be transferred to Google LLC servers in the United States. Google LLC is certified under the EU-U.S. Data Privacy Framework (or subsequent recognized transfer mechanism), which provides an adequate level of protection for personal data transferred from the EEA and UK to the US. |
 
-## 2. Your Choices and Opt-Out
-
-You have the ability to control and manage your preferences regarding the use of Google Analytics.
-
-- **Consent Management:** You can review or withdraw your consent at any time via the consent preference center provided within the Pyromics Software.
 
 For more information on the privacy practices of Google, please visit the [Google Privacy & Terms web page](https://policies.google.com/privacy?hl=en-US).

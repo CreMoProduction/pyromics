@@ -7,5 +7,5 @@ This documentation provides information about Pyromics software and usage guidan
 
 # Contact
 
-[![Static Badge](https://img.shields.io/badge/Contact_Author-8A2BE2)](mailto:aleks.delta2013@gmail.com)
+[![Static Badge](https://img.shields.io/badge/Contact_Author-8A2BE2)](mailto:oleksandr.ilchenko@slu.se)
 

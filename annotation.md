@@ -15,7 +15,7 @@ The **Edit compound annotation settings** window is a crucial part of the workfl
 ## Usage
 - **NIST MS Search Location**: optionally you can specify the location of the NIST MS Search executable (nistms.exe) on your computer. This program is a prerequisite for the annotation process for a quick annotation shown in the **Data overview** tab to annotate non-deconvoluted chromatographic peaks. It is also can be used to verify annotation processing results in the **Deconvolution results** tab for deconvoluted peaks. Click the **[...]** button to browse to and select the file.
 - **Library Location**: you have to point Pyromics to your spectral library. This is the `.msp` file that contains the mass spectra of the compounds you want to use for identification. Click the **[...]** button next to Library location to select your library file.
-- **Mass Spectrum Match**: This dropdown menu allows you to choose the algorithm used to compare your experimental mass spectra to the library spectra. The default option is dot_product, a widely used method for spectral matching. Alternative options are Pearson correlation, Squared Euclidean.
+- **Mass Spectrum Match**: This dropdown menu allows you to choose the algorithm used to compare your experimental mass spectra to the library spectra. The default option is dot_product. Alternative options are Weighted Cosine, Squared Euclidean.
 
 
 </div>
@@ -35,3 +35,18 @@ The **Edit compound annotation settings** window is a crucial part of the workfl
 - **Compound Classification**: The two text fields at the bottom, `Class` and `Subclass`, are used for classifying the annotated compounds. You can specify a custom class and subclass based on the information available in your MSP library, which helps in organizing your final results. Open your MSP library in the text editor to figure out the class and subclass notation. Using default MSP library, it refers to `Class` and `Subclass` notations.
 
 After adjusting the settings to your preference, click **OK** to apply the changes and close the window, or **Cancel** to discard them.
+
+### Weighted Cosine 
+The Weighted Cosine method applies a weighting factor to each peak before calculating the cosine similarity. The weighting factor is calculated as:
+
+$$
+W = (m/z)^m \times I^n
+$$
+
+where:
+
+- **m/z** is the mass-to-charge ratio of the peak.
+- **I** is the peak intensity.
+- **m** and **n** control the contribution of the mass-to-charge ratio and intensity, respectively.
+
+The values are **m = 3.0** and **n = 0.6**. These values emphasize higher-mass ions while moderating the influence of peak intensity during similarity calculation.
